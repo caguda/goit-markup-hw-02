@@ -16,12 +16,12 @@ body {
   color: #4d5ae5;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .navtext {
   color: #2e2f42;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .list {
@@ -47,7 +47,7 @@ address {
   font-style: normal;
 }
 
-.address-menu {
+.address-menu .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0, 02em;
