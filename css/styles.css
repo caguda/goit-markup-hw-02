@@ -15,7 +15,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }*/
-
+/*header */
 .navlogo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -61,3 +61,33 @@ address {
   letter-spacing: 0, 02em;
   color: #434455;
 }
+
+/*first section */
+.first {
+  background-color: #2e2f42;
+}
+
+.first-header {
+  font-size: 56;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0, 02em;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button .link:hover {
+  background-color: #404bbf;}
+
+.button .link:focus {
+  background-color: #404bbf;
