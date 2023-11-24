@@ -6,7 +6,7 @@ body {
   background-color: #ffffff;
 }
 
-.navlogo {
+/*.navlogo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -14,6 +14,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}*/
+
+.navlogo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .navtext {
@@ -21,6 +30,7 @@ body {
 }
 
 .link {
+  color: #4d5ae5;
   text-decoration: none;
 }
 
@@ -33,13 +43,11 @@ body {
   color: #2e2f42;
 }
 
-.header-menu,
-.link:hover {
+.list .link:hover {
   color: #404bbf;
 }
 
-.header-menu,
-.link:focus {
+.list .link:focus {
   color: #404bbf;
 }
 
@@ -47,7 +55,7 @@ address {
   font-style: normal;
 }
 
-.address-menu .link {
+.list .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0, 02em;
