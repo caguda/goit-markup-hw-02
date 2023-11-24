@@ -63,7 +63,7 @@ address {
 }
 
 /* first section */
-.first {
+.first-section {
   background-color: #2e2f42;
 }
 
@@ -115,4 +115,9 @@ h2 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+/* fourth section */
+
+.fourth-section {
+  background-color: #f4f4fd;
 }
