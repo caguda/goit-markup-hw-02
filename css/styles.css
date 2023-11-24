@@ -27,7 +27,7 @@ body {
 }
 
 .navtext {
-  color: var(--color);
+  color: #2e2f42;
 }
 
 .link {
@@ -196,7 +196,15 @@ p {
   cursor: pointer;
 }
 
-.work-list .list {
+.work-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.work-list h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
