@@ -1,14 +1,6 @@
-/* * {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  padding: 10px;
-  font-size: 12px; */
-
 :root {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  padding: 10px;
-  font-size: 12px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -16,7 +8,7 @@ body {
   background-color: #ffffff;
 }
 
-.link {
+.navlogo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -24,39 +16,41 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
-span {
+.navtext {
   color: #2e2f42;
 }
 
-.list {
+.list,
+.header-menu {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.menu-item {
   color: #2e2f42;
+}
+
+.header-menu,
+.link:hover {
+  color: #404bbf;
+}
+
+.header-menu,
+.link:focus {
+  color: #404bbf;
+}
+
+.link {
   text-decoration: none;
-}
-
-.menu-item:hover {
-  color: #404bbf;
-}
-
-.menu-item:focus {
-  color: #404bbf;
 }
 
 address {
   font-style: normal;
 }
 
-.address-item {
+.address-menu {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0, 02em;
