@@ -24,8 +24,7 @@ body {
   color: #2e2f42;
 }
 
-.list,
-.header-menu {
+.list {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
