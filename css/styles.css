@@ -34,8 +34,11 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-
 .list {
+  list-style: none;
+  color: #2e2f42;
+}
+nav .list {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -61,6 +64,14 @@ body {
   color: #404bbf;
 }
 
+address .list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 address {
   font-style: normal;
 }
@@ -185,7 +196,7 @@ p {
   cursor: pointer;
 }
 
-.work-list {
+.work-list .list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
