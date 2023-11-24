@@ -34,7 +34,16 @@ body {
   text-decoration: none;
 }
 
-.list {
+/* .list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42; 
+}*/
+
+.list li:first-child {
   list-style: none;
   font-weight: 500;
   font-size: 16px;
@@ -136,4 +145,30 @@ h2 {
 
 .p-footer {
   color: #f4f4fd;
+}
+
+/* portfolio - main - page */
+
+/* .plist {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+} */
+
+.work-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.work-button:hover,
+.work-button:focus {
+  color: #ffffff;
 }
