@@ -16,7 +16,7 @@ body {
   color: #4d5ae5;
 }*/
 /*header */
-.navlogo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -124,4 +124,16 @@ h2 {
 
 .team-list {
   background-color: #ffffff;
+}
+/* footer */
+.footer-section {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.p-footer {
+  color: #f4f4fd;
 }
