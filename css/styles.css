@@ -117,7 +117,7 @@ p {
 
 /* third section */
 
-h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -125,6 +125,16 @@ h2 {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+/* h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+} */
+
 /* fourth section */
 
 .fourth-section {
@@ -171,4 +181,12 @@ h2 {
 .work-button:hover,
 .work-button:focus {
   color: #ffffff;
+}
+
+.work-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
