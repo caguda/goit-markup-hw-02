@@ -181,6 +181,7 @@ p {
 .work-button:hover,
 .work-button:focus {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .work-list {
