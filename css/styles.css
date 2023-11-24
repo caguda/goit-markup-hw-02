@@ -87,5 +87,6 @@ h1 {
 
 .button .link:hover,
 .button .link:focus {
-  background-color: #404bbf;
+  color: #404bbf;
+  background-color: #4d5ae5;
 }
