@@ -18,6 +18,10 @@ body {
   color: #4d5ae5;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .navtext {
   color: #2e2f42;
 }
@@ -40,10 +44,6 @@ body {
 .header-menu,
 .link:focus {
   color: #404bbf;
-}
-
-.link {
-  text-decoration: none;
 }
 
 address {
