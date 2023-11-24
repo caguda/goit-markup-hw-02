@@ -85,8 +85,8 @@ h1 {
   cursor: pointer;
 }
 
-.button .link:hover,
-.button .link:focus {
+button:hover,
+button:focus {
   color: #404bbf;
   background-color: #4d5ae5;
 }
