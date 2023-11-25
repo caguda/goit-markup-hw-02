@@ -31,8 +31,9 @@ body {
 }
 
 .link {
-  color: #4d5ae5;
   text-decoration: none;
+  color: #4d5ae5;
+
 }
 .list {
   list-style: none;
@@ -205,7 +206,7 @@ p {
   color: #2e2f42;
 } */
 
-.work-list h2 {
+.work-con h2 {
   list-style: none;
   font-weight: 500;
   font-size: 20px;
