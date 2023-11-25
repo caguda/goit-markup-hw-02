@@ -84,6 +84,10 @@ address {
   color: #2e2f42;
 }
 
+.footer-logo {
+  color: #434455; 
+}
+
 /* first section */
 .first-section {
   background-color: #2e2f42;
